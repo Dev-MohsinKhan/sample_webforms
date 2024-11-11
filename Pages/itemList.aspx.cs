@@ -99,7 +99,7 @@ namespace sampleWbform.Pages
             string selectedVillage = VillageDropDown.SelectedValue;
             string selectedEntity = EntityDropDown.SelectedValue;
              
-            string query = "SELECT Name, EntityTypeName, VillageName, WillayaName, RegionName, AreaName FROM item";
+            string query = "SELECT Id, Name, EntityTypeName, VillageName, WillayaName, RegionName, AreaName FROM item";
             bool hasWhereClause = false; // Track if WHERE clause has been added
 
             // Add a WHERE clause if a specific region is selected
@@ -177,5 +177,20 @@ namespace sampleWbform.Pages
             }
 
         }
+        protected void ItemGridView_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            if (e.CommandName == "EditRecord")
+            {
+                // Get the ID of the selected record
+                int recordId = Convert.ToInt32(e.CommandArgument);
+                Session["EditRecordId"] = recordId;
+                Response.Redirect("AddUser.aspx");
+
+                // Implement code to load and show the edit form for the record with this ID
+                // For example, open a modal or redirect to a page with the record's edit form
+            }
+        }
+
     }
+
 }

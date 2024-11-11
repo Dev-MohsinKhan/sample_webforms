@@ -1,3 +1,5 @@
+D:\Dotnet_Projects\Sample\sampleWbform\obj\Debug\sampleWbform.csproj.AssemblyReference.cache
+D:\Dotnet_Projects\Sample\sampleWbform\obj\Debug\sampleWbform.csproj.CoreCompileInputs.cache
 D:\Dotnet_Projects\Sample\sampleWbform\bin\sampleWbform.dll.config
 D:\Dotnet_Projects\Sample\sampleWbform\bin\sampleWbform.dll
 D:\Dotnet_Projects\Sample\sampleWbform\bin\sampleWbform.pdb
@@ -66,8 +68,6 @@ D:\Dotnet_Projects\Sample\sampleWbform\bin\Newtonsoft.Json.xml
 D:\Dotnet_Projects\Sample\sampleWbform\bin\Antlr3.Runtime.pdb
 D:\Dotnet_Projects\Sample\sampleWbform\bin\Microsoft.AspNet.FriendlyUrls.xml
 D:\Dotnet_Projects\Sample\sampleWbform\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Dotnet_Projects\Sample\sampleWbform\obj\Debug\sampleWbform.csproj.AssemblyReference.cache
-D:\Dotnet_Projects\Sample\sampleWbform\obj\Debug\sampleWbform.csproj.CoreCompileInputs.cache
 D:\Dotnet_Projects\Sample\sampleWbform\obj\Debug\sampleWbform.csproj.CopyComplete
 D:\Dotnet_Projects\Sample\sampleWbform\obj\Debug\sampleWbform.dll
 D:\Dotnet_Projects\Sample\sampleWbform\obj\Debug\sampleWbform.pdb
